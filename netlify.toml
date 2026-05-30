@@ -1,7 +1,7 @@
 [build]
   base = "yamoo-vercel"
   command = "npm run build"
-  publish = "yamoo-vercel/dist"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
